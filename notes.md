@@ -59,4 +59,6 @@ Things to look into:
 
 # day 3
 
+Initially, I thought a dictionary would be the best for scoring each letter, but then considered if I could generate the dictionary each time so I wouldn't have to hard code it in. Then, I realizeed that `find()` is a feature of python that returns the index of the search in the string. This could be added to 1 to get the score if the letters were simply arranged in order. 
+
 
