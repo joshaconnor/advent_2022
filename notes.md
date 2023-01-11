@@ -1,4 +1,4 @@
-# day 1
+## day 1
 
 This is a fairly straight-forward question with an easy solution. It requires taking an input and parsing that file for new line items separated into sections by empty lines. These sections should be 
 summed, and the top three values of those summations should be returned. 
@@ -6,7 +6,7 @@ summed, and the top three values of those summations should be returned.
 To do this, I looked at the file input functions in python, and chose to parse the file by line. If the line was blank, I added all the values in the previous section to a list and summed the values, 
 creating a list of totals for each section. I then simply sorted and returned the top three values from the list. 
 
-# day 2
+## day 2
 
 This was a slightly more complicated problem, and took a little more effort. I also am certain there is a better way to solve this problem, I just don't know it yet. 
 
@@ -57,8 +57,9 @@ Things to look into:
  - cross product
  - true false tables
 
-# day 3
+## day 3
 
 Initially, I thought a dictionary would be the best for scoring each letter, but then considered if I could generate the dictionary each time so I wouldn't have to hard code it in. Then, I realizeed that `find()` is a feature of python that returns the index of the search in the string. This could be added to 1 to get the score if the letters were simply arranged in order. 
 
+## day 4
 
